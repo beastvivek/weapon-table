@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+table{
+  margin: 1em;
+  border-collapse: collapse;
+}
+td{
+  border-top: 0.05em dotted black;
+}
+th,td{
+  padding: 0.4em;
+  text-align: left;
+  border-right: 0.05em dotted black;
+}
+tr > :last-child{
+   border-right: none;
+}
